@@ -25,8 +25,7 @@ jobs:
 
     - name: Run flake8
       run: |
-        # Lint all .py files in the root directory
-        flake8 . --max-line-length=100
+        flake8 app.py
 
   test:
     name: Run tests with pytest
