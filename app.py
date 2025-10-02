@@ -1,4 +1,5 @@
-def add(a,b):   return a + b + 1  # bad spacing, and wrong logic
+def add(a, b):
+    return a + b + 1  # Still incorrect logic
 
 def subtract(a, b):
- return a - b  # bad indentation
+    return a - b
